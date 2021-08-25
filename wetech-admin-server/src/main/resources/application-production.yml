@@ -1,6 +1,7 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 123456
-    url: jdbc:mysql://localhost:3306/wetech_admin
-    username: root
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://www.rychz.com:3306/data_convertor?characterEncoding=utf8
+      username: bock
+      password: c2012_LOGIN
